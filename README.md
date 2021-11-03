@@ -4,7 +4,13 @@ This HelloID Service Automation Delegated Form provides AD computer delete funct
  1. Search and select the target AD computer
  2. Show basic AD computer attributes of selected target computer
  4. Delete the selected target AD computer
- 
+
+
+| Version | Description | Date |
+| - | - | - |
+| 1.0.1   | Added version number and updated all-in-one script | 2021/11/03  |
+| 1.0.0   | Initial release | 2021/06/24  |
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 * [Description](#description)
@@ -12,6 +18,7 @@ This HelloID Service Automation Delegated Form provides AD computer delete funct
   * [Getting started](#getting-started)
 * [Post-setup configuration](#post-setup-configuration)
 * [Manual resources](#manual-resources)
+* [Getting help](#getting-help)
 
 
 ## All-in-one PowerShell setup script
@@ -32,5 +39,8 @@ This Powershell data source runs an Active Directory query to search for matchin
 ### Delegated form task 'ad-computer-delete'
 This delegated form task will delete the selected target AD computer.
 
-# HelloID Docs
+## Getting help
+_If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/service-automation/503-helloid-sa-active-directory-delete-computer-object)_
+
+## HelloID Docs
 The official HelloID documentation can be found at: https://docs.helloid.com/
