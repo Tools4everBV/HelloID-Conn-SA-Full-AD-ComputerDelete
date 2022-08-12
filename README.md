@@ -24,7 +24,7 @@ This HelloID Service Automation Delegated Form provides AD computer delete funct
 ## All-in-one PowerShell setup script
 The PowerShell script "createform.ps1" contains a complete PowerShell script using the HelloID API to create the complete Form including user defined variables, tasks and data sources.
 
- _Please note that this script asumes none of the required resources do exists within HelloID. The script does not contain versioning or source control_
+ _Please note that this script assumes none of the required resources do exist within HelloID. The script does not contain versioning or source control_
 
 
 ### Getting started
