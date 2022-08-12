@@ -16,7 +16,7 @@ try{
         Message = "Deleted computer account with name [$name]"
         IsError = $false
         TargetDisplayName = $name
-        TargetIdentifier = $adComputer.SID
+        TargetIdentifier = "$($adComputer.SID)"
     }
     Write-Information -Tags "Audit" -MessageData $Log
 } catch {
@@ -27,7 +27,7 @@ try{
         Message = "Failed to delete AD computer account [$name]. Error: $_"
         IsError = $true
         TargetDisplayName = $name
-        TargetIdentifier = $adComputer.SID
+        TargetIdentifier = "$($adComputer.SID)"
     }
     Write-Information -Tags "Audit" -MessageData $Log
 }
